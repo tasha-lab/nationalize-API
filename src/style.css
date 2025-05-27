@@ -1,13 +1,13 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-html{
+html {
   font-size: 10px;
 }
 
-body{
+body {
   background-color: var(--secondary-faded-white);
   font-size: 1.5rem;
 }
@@ -21,57 +21,57 @@ body{
   --primary-font-family: "WDXL Lubrifont TC", sans-serif;
 }
 
-.header-section{
+.header-section {
   background-color: var(--primary-dark-blue);
-  display:flex;
-  justify-content:space-between;
-  align-items: center;
-  height:8rem;
-  font-size: 3rem;
-  width:100%;
-}
-.header-section .logo{
-  padding-left:4rem;
-  position:relative;
-}
-
-.logo .two{
-  padding-left: 3rem
-}
-
-.icons{
-  padding-right:3rem;
-  display:flex;
+  display: flex;
   justify-content: space-between;
-  gap:3rem;
+  align-items: center;
+  height: 8rem;
+  font-size: 3rem;
+  width: 100%;
+}
+.header-section .logo {
+  padding-left: 4rem;
+  position: relative;
 }
 
-@media screen and (max-width:380px){
-  .header-section .logo{
+.logo .two {
+  padding-left: 3rem;
+}
+
+.icons {
+  padding-right: 3rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+@media screen and (max-width: 380px) {
+  .header-section .logo {
     font-size: 2rem;
-    padding-left:1rem
+    padding-left: 1rem;
   }
-  .icons{
-    display:flex;
+  .icons {
+    display: flex;
     flex-direction: column;
-    gap:.5rem;
+    gap: 0.5rem;
   }
 }
-@media screen and (max-width:400px){
-  .icons{
-    display:flex;
+@media screen and (max-width: 400px) {
+  .icons {
+    display: flex;
     flex-direction: column;
-    gap:.5rem;
+    gap: 0.5rem;
   }
 }
 
-.main-section{
-  display:flex;
+.main-section {
+  display: flex;
   justify-content: center;
   align-items: center;
-  width:100%;
-  height:86vh;
-  position:relative;
+  width: 100%;
+  height: 86vh;
+  position: relative;
   /* padding-top:10rem  */
 }
 .three {
@@ -80,69 +80,63 @@ body{
   font-weight: 700;
   text-transform: capitalize;
   padding-bottom: 2rem;
-
 }
 
-form input{
-  height:5rem;
-  width:35rem;
-  border-radius:.8rem;
-  border:none;
-  
-
+form input {
+  height: 5rem;
+  width: 35rem;
+  border-radius: 0.8rem;
+  border: none;
 }
-input::placeholder{
-  padding-left:.9rem;
+input::placeholder {
+  padding-left: 0.9rem;
 }
-form button{
-  height:5rem;
-  width:10rem;
-  border:none;
+form button {
+  height: 5rem;
+  width: 10rem;
+  border: none;
   background-color: var(--primary-light-pink);
-  border-radius:.8rem;
+  border-radius: 0.8rem;
 }
-.four{
+.four {
   font-family: var(--primary-font-family);
   font-size: 2rem;
   text-transform: capitalize;
-  display:flex;
+  display: flex;
   padding-top: 2rem;
   /* padding-left:3rem; */
-  
 }
 
-@media screen and (max-width:350px){
-  .main-section{
+@media screen and (max-width: 350px) {
+  .main-section {
     display: flex;
     flex-direction: column;
-    padding-left:3rem
+    padding-left: 3rem;
     /* align-items: center; */
   }
-  .three{
+  .three {
     font-size: 3rem;
   }
-  form input{
-    height:4rem;
-    width:20rem;
+  form input {
+    height: 4rem;
+    width: 20rem;
   }
-  form button{
-    height:4rem;
-    width:5rem;
+  form button {
+    height: 4rem;
+    width: 5rem;
   }
-  .four{
+  .four {
     padding-left: 4rem;
   }
 }
-@media screen and (max-width:450px){
-  .main-section{
+@media screen and (max-width: 450px) {
+  .main-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left:3rem;
+    padding-left: 3rem;
   }
-  .three{
-    text-align:center;
+  .three {
+    text-align: center;
   }
-  
 }
-
