@@ -45,6 +45,9 @@ body {
   justify-content: space-between;
   gap: 3rem;
 }
+a{
+  color: black;
+}
 
 @media screen and (max-width: 380px) {
   .header-section .logo {
@@ -103,6 +106,7 @@ form button {
   font-size: 2rem;
   text-transform: capitalize;
   display: flex;
+  flex-direction: column;
   padding-top: 2rem;
   /* padding-left:3rem; */
 }
